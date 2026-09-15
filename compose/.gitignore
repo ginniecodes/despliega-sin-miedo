@@ -1,0 +1,26 @@
+## --- OS files (macOS, Linux, Windows) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~
+*.swp
+*.swo
+
+## --- Env / secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+## --- Python / app ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.log
